@@ -1,0 +1,157 @@
+h1 {
+  color: white !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.header-container {
+  font-family: 'Charmonman', cursive;
+}
+
+.image-home {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;  
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.text-block {
+  text-align: center;
+  position: absolute;
+  margin: 13% 35%;
+  color:white;
+  background-color: black;
+  opacity: 0.8;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.button-container{
+  margin: 10% auto;
+}
+
+.button-fnc{
+  margin: 0 5%;
+  opacity: 0.9
+}
+
+.form-group{
+  color: red !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  color: black !important;
+  font-weight: bold;
+  text-align: center;
+  border-style: dashed;
+}
+
+
+
+/* gif.js, jpeg.js and png.js CSS*/
+
+.image-describe{
+  margin: 0 auto;
+  padding: 3% 0.5%;
+  width: 20%;
+  position:relative;
+}
+.navigation-bar {
+  display:flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  position: fixed;
+  margin: 0 auto;
+}
+
+.btn-spacing {
+  width: 10em;
+}
+
+.capture-handler{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  text-align: center;
+  width:33.33%;
+}
+
+.imgrepo-pos{
+  float: up;
+  display:flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: center;
+  float: right;
+  width:33.33%;
+  align-items: right;
+  margin: 0 auto;
+}
+
+.image-row{
+  border: 1px solid gray;
+}
+
+.float-right{
+  float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* gif.js CSS*/
+
+.gif-background-container{
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0,0,0,0.0000001), rgba(0,0,0,0.000001)),
+              url("https://upload.wikimedia.org/wikipedia/commons/4/46/PIA21255_-_Now_and_Long_Ago_at_Gale_Crater%2C_Mars_%28Illustration%29.gif") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* jpeg.js CSS*/
+
+.jpeg-background-container{
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.0000001), rgba(0,0,0,0.000001)),
+              url("https://pixnio.com/free-images/2017/04/18/2017-04-18-20-35-17-900x506.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* png.js CSS*/
+
+.png-background-container{
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.0000001), rgba(0,0,0,0.000001)),
+              url("https://upload.wikimedia.org/wikipedia/commons/8/86/Fossil%2C_OR_%E2%80%94_City_Hall%2C_Library_and_Fire_Department_%28PNG%29.png") no-repeat center center fixed;
+  background-size: cover;
+}
