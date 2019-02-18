@@ -1,0 +1,43 @@
+.jpeg_bg{
+  background: url("https://pixnio.com/free-images/2017/04/18/2017-04-18-20-35-17-900x506.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: auto;
+  height: 100000000000000000000000000000000000000px;
+
+}
+
+.jpeg_leftside{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+
+.jpeg_leftside h1{
+  justify-content: center;
+}
+
+.button-content{
+  color:white !important;
+  background-color: red !important;
+  margin: 35px !important;
+}
+
+.button-content:hover{
+  color:white !important;
+  background-color: blue !important;
+}
+
+.jpeg_rightside{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+.jpeg_rightside h1{
+  justify-content: center;
+}
+
+

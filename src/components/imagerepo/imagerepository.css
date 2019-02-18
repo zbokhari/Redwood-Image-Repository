@@ -1,0 +1,7 @@
+.repo_image {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}

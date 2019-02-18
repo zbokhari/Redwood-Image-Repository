@@ -1,49 +1,30 @@
 import React, { Component } from 'react';
+import Navbar from './components/navbar/navbar.js';
 import './App.css';
-import {HOME, GIF, JPEG, PNG} from './paths';
-import Home from './components/home';
-import Gif from './components/gif';
-import Jpeg from './components/jpeg';
-import Png from './components/png';
 
+
+//ROUTES
+import { Switch, Route } from 'react-router-dom';
+import Home from './components/home/home.js';
+import Gif from './components/gif/gif.js';
+import Jpeg from './components/jpeg/jpeg.js';
+import Png from './components/png/png.js';
 
 class App extends Component {
-  state={
-    page: HOME,
-  }
-
-  reDirect = a => {
-    this.setState({page:a})
-  }
-
-  renderPage = page => {
-    switch(page) {
-      case GIF:
-        return (
-          <Gif reDirect={this.reDirect}/>
-        )
-      case JPEG:
-      return (
-          <Jpeg reDirect={this.reDirect}/>
-      )
-      case PNG:
-      return (
-          <Png reDirect={this.reDirect}/>
-      )
-      case HOME:
-        return (
-          <Home reDirect={this.reDirect}/>
-        )
-      default:
-        return <h1>Error 404 [PAGE NOT FOUND]</h1>  
-    }
-  }
-
 
   render() {
     return (
-      <div>
-          {this.renderPage(this.state.page)}
+      <div className="App">
+        <Navbar />
+        <div className ="Route-Manager">
+          {/* Routes */}
+          <Switch>
+            <Route exact path='/' render={(renderProps) => <Home />} />
+            <Route path='/gif' render={(renderProps) => <Gif />} />
+            <Route path='/jpeg' render={(renderProps) => <Jpeg />} />
+            <Route path='/png' render={(renderProps) => <Png />} />
+          </Switch>
+        </div>
       </div>
     );
   }

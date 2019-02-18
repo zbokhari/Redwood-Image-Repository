@@ -1,0 +1,41 @@
+  .png_bg{
+    background: url("https://upload.wikimedia.org/wikipedia/commons/8/86/Fossil%2C_OR_%E2%80%94_City_Hall%2C_Library_and_Fire_Department_%28PNG%29.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    height: 100000000000000000000000000000000000000px;
+  
+  }
+  
+  .png_leftside{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+  }
+  
+  
+  .png_leftside h1{
+    justify-content: center;
+  }
+  
+  .button-content{
+    color:white !important;
+    background-color: red !important;
+    margin: 35px !important;
+  }
+  
+  .button-content:hover{
+    color:white !important;
+    background-color: blue !important;
+  }
+  
+  .png_rightside{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+  }
+  .png_rightside h1{
+    justify-content: center;
+  }

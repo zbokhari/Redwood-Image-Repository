@@ -1,9 +1,9 @@
-h1 {
-  color: white !important;
+.App{
+  height: 100%;
 }
 
-.App {
-  text-align: center;
+.Route-Manager{
+  height: 100%;
 }
 
 .header-container {
@@ -108,50 +108,4 @@ p {
 
 .float-right{
   float:right;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* gif.js CSS*/
-
-.gif-background-container{
-  min-height: 100vh;
-  width: 100vw;
-  background: linear-gradient(rgba(0,0,0,0.0000001), rgba(0,0,0,0.000001)),
-              url("https://upload.wikimedia.org/wikipedia/commons/4/46/PIA21255_-_Now_and_Long_Ago_at_Gale_Crater%2C_Mars_%28Illustration%29.gif") no-repeat center center fixed;
-  background-size: cover;
-}
-
-/* jpeg.js CSS*/
-
-.jpeg-background-container{
-  min-height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.0000001), rgba(0,0,0,0.000001)),
-              url("https://pixnio.com/free-images/2017/04/18/2017-04-18-20-35-17-900x506.jpg") no-repeat center center fixed;
-  background-size: cover;
-}
-
-/* png.js CSS*/
-
-.png-background-container{
-  min-height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.0000001), rgba(0,0,0,0.000001)),
-              url("https://upload.wikimedia.org/wikipedia/commons/8/86/Fossil%2C_OR_%E2%80%94_City_Hall%2C_Library_and_Fire_Department_%28PNG%29.png") no-repeat center center fixed;
-  background-size: cover;
 }

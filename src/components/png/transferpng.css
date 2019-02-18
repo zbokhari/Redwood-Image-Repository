@@ -1,0 +1,24 @@
+.form-capture-box {
+    display: flex;
+    padding: 10px;
+    width: 500px;
+}
+
+.cap_url {
+    margin-left: 10px;
+}
+
+.cap_image {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+.form-input-box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 500px;
+}
