@@ -1,6 +1,11 @@
 ## Redwood Image Repository
 
-### Front-end project using React.js to create components. Used Regex to specify different file types which would render to a specific component based on search keywords. In addition, error handling was implemented to alert the end-user if they submitted an image of an incorrect file type.
+### Front-end project individual project created @ https://redwoodcodeacademy.com/.
+
+### Directive: Allow end-user to render specific image file types to page, alert the end-user if they submitted an image of an incorrect file type based on which react component they are on, and navigate between pages based on applicable file types.
+
+### Tools Utilized: CSS for styling, React for life-cycle components and maintaining state, Regex for matching input search strings with file suffix to select an image file of the allowed type.
+
 
 ![home_page](https://github.com/zbokhari/Redwood-Image-Repository/blob/master/Home%20Page.PNG)
 ![gif page](https://github.com/zbokhari/Redwood-Image-Repository/blob/master/GIF%20PAGE.PNG)
