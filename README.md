@@ -1,6 +1,6 @@
 ## Redwood Image Repository
 
-### Front-end project individual project created @ https://redwoodcodeacademy.com/.
+### Front-end individual project created @ https://redwoodcodeacademy.com/.
 
 ### Directive: Allow end-user to render specific image file types to page, alert the end-user if they submitted an image of an incorrect file type based on which react component they are on, and navigate between pages based on applicable file types.
 
